@@ -1,0 +1,40 @@
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+  .main {
+    width: 100%;
+  }
+
+  .header {
+    max-width: 100%;
+  }
+
+  .aside {
+    width: 586px;
+    height: 64px;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+
+  .logo {
+    display: none;
+  }
+  .support {
+    display: none;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 555px;
+    height: 170px;
+  }
+
+  .table {
+    display: none;
+  }
+}
